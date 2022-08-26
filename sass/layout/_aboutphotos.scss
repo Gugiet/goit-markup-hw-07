@@ -1,0 +1,44 @@
+.photos {
+  background-color: var(--first-background-color);
+  display: inline;
+  color: var(--first-text-color);
+
+  &__head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 50px;
+  }
+
+  &__photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &--label {
+    width: 370px;
+    height: 294px;
+    position: relative;
+  }
+
+  &--text {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    background: #2f303acc;
+    margin-top: 224px;
+  }
+
+  &--description {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    padding-top: 27px;
+  }
+}

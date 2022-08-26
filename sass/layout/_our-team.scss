@@ -1,0 +1,48 @@
+.our-team {
+  background-color: #f5f4fa;
+
+  &--member {
+    width: 270px;
+    height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__title {
+    color: var(--first-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  &__members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 94px;
+  }
+
+  &__member {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--first-background-color);
+  }
+
+  &--john-doe {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--first-text-color);
+    padding-top: 30px;
+  }
+
+  &--text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+}

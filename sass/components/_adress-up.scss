@@ -1,0 +1,67 @@
+.address-up li {
+  display: inline;
+}
+
+.address-up > .email {
+  fill: #2196f3;
+  color: #2196f3;
+}
+
+.address-up {
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+
+  &__mail {
+    color: var(--second-text-color);
+    text-decoration: none;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: right;
+      color: #2196f3;
+      fill: #2196f3;
+    }
+  }
+
+  &__tel {
+    color: var(--second-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.contact-info {
+  width: 26px;
+  height: 12px;
+  padding-right: 10px;
+  fill: var(--second-text-color);
+}
+
+.address-up :hover {
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: right;
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.address-up :hover .contact-info {
+  fill: #2196f3;
+}
+.smartphone {
+  width: 20px;
+  height: 16px;
+  padding-right: 10px;
+  fill: var(--second-text-color);
+}

@@ -1,0 +1,59 @@
+.main__headder {
+  background-color: var(--second-background-color);
+
+  & .main__container {
+    align-items: center;
+  }
+}
+
+.main-background {
+  width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 40%) 100%,
+      rgba(47, 48, 58, 40%) 100%
+    ),
+    url(../images/Background.jpg);
+  background-size: contain;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.main--text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--third-text-color);
+  padding: 200px 452px 30px 452px;
+}
+
+.main--selector {
+  font-style: normal;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--third-text-color);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: 30px 700px 200px 700px;
+
+  &:hover,
+  &:focus {
+    color: var(--third-text-color);
+    background: var(--button-color);
+    transition: color 250ms, background 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

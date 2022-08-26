@@ -1,0 +1,46 @@
+.icons {
+  display: flex;
+  margin-top: 119px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__icon {
+    align-items: center;
+  }
+}
+
+/*komórki lorem ipsum*/
+
+.ipsum {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+
+  & .reversed {
+    flex-direction: row;
+  }
+
+  &__main {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--first-text-color);
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  &__secondarry {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: justify;
+    display: flex;
+  }
+
+  &__list {
+    list-style: none;
+    display: block;
+    text-align: left;
+  }
+}
